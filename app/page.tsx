@@ -12,6 +12,12 @@ export default async function Page({ params }: { params: { slug: string } }) {
       >
         Profile Page
       </a>
+      <a
+        href="/crazylogin"
+        className="border-2 rounded-md p-4 hover:bg-slate-100"
+      >
+        Crazy Login Page
+      </a>
     </div>
   );
 }
